@@ -11,7 +11,16 @@ import java.util.Date;
  *
  * @author maha-
  */
+
+@Singleton
+@LocalBean
 public class Preconvention {
+
+    @Resource(lookup = "jms/CommandesEmises")
+    private Topic topic;
+    
+    @Inject
+    private JMSContext context;
     private int refConv;
     private int etudiant;
     private String diplome;
