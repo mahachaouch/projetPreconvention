@@ -1,0 +1,4 @@
+- créer les files et topics
+partie JMS - envoyer et récupérer de chaque topic et file
+le front : interface pour formulaire d ajout pré convention
+le service REST pour entreprise : récupérer les SIREN ...
